@@ -1,0 +1,53 @@
+*, a{
+  margin:0;
+  text-decoration: none;
+  font-family: 'Times New Roman',Times,serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+  color: aliceblue;
+}
+
+.ngilo-user{
+  background: purple;
+  background: linear-gradient();
+  height: 728px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-login{
+  background: rgba(225, 225, 225, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38,135, 0.37);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border-radius: 10px;
+  width: 400px;
+  padding: 20px;
+  height: 200px;
+}
+
+.user-login > form{
+  display: flex;
+  flex-direction: column;
+}
+.user-login > form > input{
+  width: 350px;
+  border: 0px;
+  border-radius: 4px;
+  height: 26px;
+}
+.user-btn{
+  margin-top: 10px;
+  width: 500px;
+  text-align: center;
+  background-color: black;
+  height: 30px;
+  color: aliceblue;
+  padding: 10px;
+}
